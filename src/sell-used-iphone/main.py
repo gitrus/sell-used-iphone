@@ -9,4 +9,4 @@ def create_app():
     def index():
         title = "Sell used iphone"
         return render_template("index.html", page_title= title)
-    return app 
+    return app
